@@ -1,0 +1,12 @@
+.Butto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddIcon{
+    background-color: tomato;
+    cursor: pointer;
+    border: 2px solid black;
+    margin: -5px 12px;
+    border-radius: 50px;
+}
