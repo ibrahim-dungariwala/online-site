@@ -1,12 +1,15 @@
-.Butto-container{
+.Button-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.AddIcon{
-    background-color: tomato;
+.add-icone{
+    background-color: orange;
     cursor: pointer;
-    border: 2px solid black;
-    margin: -5px 12px;
-    border-radius: 50px;
+    cursor: pointer;
+    margin: -4px 10px;
+    border: solid 2px black;
+    border-radius: 25%;
+
+
 }
