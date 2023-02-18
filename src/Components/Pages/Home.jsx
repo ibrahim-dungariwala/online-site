@@ -62,7 +62,7 @@ export const Home = () => {
   const handleIncrement = (id) => {
     
     const res = handleIncrementQty(copyData, id);
-    setData(res);
+      setData(res);
       setCopyData(res)
   };
 
@@ -71,6 +71,7 @@ export const Home = () => {
     const res = handleDecrimentQty(copyData, id);
     setData(res);
     setCopyData(res);
+    
   };
 
   
@@ -155,9 +156,7 @@ export const Home = () => {
                   <Button
                     variant="contained"
                     sx={{ position: "relative", left: 105 }}
-                    onClick={() => handleAddtoCart(item)}
-                  >
-                    Add To Card
+                    onClick={() => handleAddtoCart(item)}>Add To Card
                   </Button>
                 </CardContent>
               </Card>
