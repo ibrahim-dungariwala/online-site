@@ -25,4 +25,15 @@ export const handleIncrementQty=(arr,id)=>{
          return res
     }
 
- 
+ export const activateLoader =(dispatch)=>{
+  dispatch({
+    type: "LOADER_ACTIVATE",
+    payload: true
+  })
+ }
+ export const deactivateLoader =(dispatch)=>{
+    dispatch({
+      type: "LOADER_DEACTIVATE",
+      payload: false
+    })
+   }
